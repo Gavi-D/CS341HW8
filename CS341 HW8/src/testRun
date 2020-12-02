@@ -1,0 +1,100 @@
+											Add Book Tests
+Test 1:
+
+Input: 'Add Book' button pressed
+Output: Error: An entry is empty
+
+
+
+Test 2:
+
+Input: All entries filled -- 'Add Book' button pressed
+Output: Book added!
+
+
+
+											Remove Book Tests
+Test 3:
+
+Input: 'Remove Book' button pressed
+Output: Please enter SKU No.
+
+
+
+Test 4:
+
+Input: Unknown SKU entered -- 'Remove Book' button pressed
+Output: Inventory is empty
+
+
+
+Test 5:
+
+Input: All entries filled -- 'Add Book' button pressed
+Output: Book added!
+
+Input: Unknown SKU entered -- 'Remove Book' button pressed
+Output: Book not found!
+
+
+
+Test 6:
+
+Input: 3 books added to inventory
+Output: Books added!
+
+Input: Known SKU entered -- 'Remove Book' button pressed
+Output: Book removed!
+
+
+
+											Find Book Tests
+Test 7:
+
+Input: 'Find Book' button pressed
+Output: Please enter SKU No.
+
+
+
+Test 8:
+
+Input: Unknown SKU entered -- 'Find Book' button pressed
+Output: Inventory is empty
+
+
+
+Test 9:
+
+Input: 3 books added to inventory
+Output: Books added!
+
+Input: Unknown SKU entered -- 'Find Book' button pressed
+Output: Book not found!
+
+
+
+Test 10:
+
+Input: 3 books added to inventory
+Output: Books added!
+
+Input: Known SKU entered -- 'Find Book' button pressed
+Output: Book info displayed in Console
+
+
+
+										Display Inventory Tests
+Test 11:
+
+Input: 'Display Inventory' button pressed
+Output: Inventory is empty
+
+
+
+Test 12:
+
+Input: 3 books added to inventory
+Output: Books added!
+
+Input: 'Display Inventory' button pressed
+Output: Inventory is displayed in Console
